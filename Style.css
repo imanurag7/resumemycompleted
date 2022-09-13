@@ -1,0 +1,670 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Figtree", sans-serif;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+#Body-header {
+    height: 68vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 1.2rem;
+    opacity: 0.7;
+    background-image: url(/Task/ResumeProject/coverphoto.png);
+}
+
+.horizontal-list {
+    /* display: block; */
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    position: relative;
+    bottom: 35px;
+    text-decoration: none;
+}
+
+.horizontal-list li {
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+.nav-menu li a:hover {
+    color: rgb(248, 121, 121) border-bottom: 1px solid black;
+}
+
+.horizontal-list li a {
+    color: white;
+    text-decoration: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#my-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 1px 1px 10px 2px;
+}
+
+.nav-menu li a {
+    transition: color 0.8s, border-bottom 4s;
+}
+
+.nav-menu li a:hover {
+    color: rgb(32, 177, 32);
+    border-bottom: 1px solid black;
+    border-radius: 50%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#name-social-container {
+    margin: 20vh;
+}
+
+#my-name {
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    color: rgb(246, 247, 247);
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    position: relative;
+    bottom: 140px;
+}
+
+.social-icons li a i {
+    padding: 10px;
+    font-size: 1.5rem;
+    border-radius: 100%;
+    position: relative;
+    bottom: 110px;
+    color: #f3f0f0;
+    transition: .5s;
+    z-index: 3;
+}
+
+.social-icons li a i :hover {
+    box-shadow: 0px 0px 6px 4px rgba(235, 104, 104, 0.3);
+}
+
+#my-image {
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -17vh;
+    opacity: 0.8;
+    position: relative;
+    bottom: 69px;
+}
+
+#about-para {
+    padding: 10px;
+    width: 70%;
+    text-align: justify;
+    color: grey;
+    line-height: 30px;
+    margin: auto;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.skills {
+    background-color: rgb(229, 244, 244);
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+
+.skill-bar {
+    width: 12rem;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 3rem;
+}
+
+.css {
+    background: linear-gradient(to right, rgb(245, 90, 209) 90%, rgb(211, 211, 211) 90%);
+    border: 1px solid black;
+    border-radius: 15px;
+    animation: mymove 3s infinite;
+}
+
+@keyframes mymove {
+    50% {
+        border: 10px solid rgb(255, 47, 0);
+    }
+}
+
+.html {
+    background: linear-gradient(to right, rgb(245, 118, 90) 90%, rgb(211, 211, 211) 90%);
+    border: 1px solid black;
+    border-radius: 25px;
+    animation: mymove 3s infinite;
+}
+
+@keyframes mymove {
+    50% {
+        border: 10px solid rgb(255, 47, 0);
+    }
+}
+
+.js {
+    background: linear-gradient(to right, rgb(93, 90, 245) 60%, rgb(211, 211, 211) 0%);
+    border: 1px solid black;
+    border-radius: 25px;
+    animation: mymove 3s infinite;
+}
+
+@keyframes mymove {
+    50% {
+        border: 10px solid rgb(225, 0, 255);
+    }
+}
+
+.java {
+    background: linear-gradient(to right, rgb(7, 77, 27) 65%, rgb(211, 211, 211) 90%);
+    border: 1px solid black;
+    border-radius: 25px;
+    animation: mymove 3s infinite;
+}
+
+@keyframes mymove {
+    50% {
+        border: 10px solid rgb(255, 0, 51);
+    }
+}
+
+.njs {
+    background: linear-gradient(to right, rgb(57, 15, 185) 70%, rgb(211, 211, 211) 90%);
+    border: 1px solid black;
+    border-radius: 25px;
+    animation: mymove 3s infinite;
+}
+
+@keyframes mymove {
+    50% {
+        border: 10px solid rgb(235, 150, 131);
+    }
+}
+
+.md {
+    background: linear-gradient(to right, rgb(249, 164, 168) 45%, rgb(211, 211, 211) 90%);
+    border: 1px solid black;
+    border-radius: 25px;
+    animation: mymove 3s infinite;
+}
+
+@keyframes mymove {
+    50% {
+        border: 10px solid rgb(34, 10, 4);
+    }
+}
+
+.bt {
+    background: linear-gradient(to right, rgb(36, 222, 235) 70%, rgb(211, 211, 211) 90%);
+    border: 1px solid black;
+    border-radius: 25px;
+    animation: mymove 3s infinite;
+}
+
+@keyframes mymove {
+    50% {
+        border-bottom: 10px solid grey;
+    }
+}
+
+.skill-container {
+    background-color: rgb(239, 239, 239);
+    padding-top: 107px;
+    background-color: #eeeeee;
+    padding-bottom: 200px;
+    margin-top: -32px;
+    margin-bottom: -37px;
+    background-image: linear-gradient(to right, #ccc, white);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-right: 225px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Figtree", sans-serif;
+    text-align: center;
+}
+
+.skill {
+    color: blue;
+    text-align: center;
+    position: relative;
+    left: 595px;
+    top: -65px;
+}
+
+.timeline {
+    position: relative;
+    width: 75%;
+    margin: auto;
+    margin-top: 72px
+}
+
+.timeline-box {
+    position: relative;
+    width: 40%;
+    min-height: 150px;
+    left: 5%;
+    text-align: right;
+    padding: 5px;
+}
+
+.timeline-box::after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: lightgrey;
+    top: 25%;
+    border-radius: 50%;
+    z-index: 1;
+    margin-left: 5px;
+    margin-top: 12px;
+}
+
+.timeline-logo {
+    width: 80px;
+    overflow: hidden;
+    position: absolute;
+    margin-top: -30px;
+    position: relative;
+    right: 24px;
+    top: 11px;
+}
+
+.timeline-box:nth-child(2n+1) {
+    left: 53%;
+}
+
+.timeline-box:nth-child(2n+1)::after {
+    right: 105%;
+    margin-right: 5px;
+}
+
+.timeline-box:nth-child(2n)::after {
+    left: 109%;
+    margin-top: 31px;
+}
+
+.timeline-logo>img {
+    width: 100%;
+}
+
+#timeline-divider {
+    width: 0%;
+    border: 2px dashed blue;
+    position: absolute;
+    height: 80%;
+    bottom: 20%;
+    left: 50%;
+}
+
+#timeline-divider .timeline-traveller {
+    position: sticky;
+    top: 135px;
+    z-index: 2;
+}
+
+#timeline-divider i {
+    transform: rotate(91deg);
+    margin-top: -35px;
+    display: block;
+    color: blue;
+    margin-right: -8px;
+}
+
+.experience-designation {
+    font-size: 1.8rem;
+}
+
+.experience-comapny-name {
+    margin: 5px 0 0;
+    color: #eb822d;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+.experience-description {
+    font-size: 1.3rem;
+    padding: 12px;
+    color: grey;
+    line-height: 35px;
+    margin: auto;
+}
+
+.highlight {
+    color: blue;
+    font-weight: bold;
+}
+
+#experience {
+    padding-bottom: 80px;
+    padding-top: 80px;
+    background-color: white
+}
+
+.experience-comapny-name {
+    margin: 5px 0 0;
+    color: #eb822d;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+span {
+    color: rgb(40, 110, 184);
+    font-weight: 500;
+    position: relative;
+}
+
+* {
+    user-select: none;
+}
+
+#portfolio-conatiner {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 50px;
+    margin-bottom: 20px;
+    justify-content: space-around;
+}
+
+.portfolio-image-conatiner {
+    max-width: 300px;
+    position: relative;
+    margin: 10px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.portfolio-image-conatiner img {
+    width: 100%;
+    height: 100;
+}
+
+.portfolio-details {
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    color: transparent;
+    left: 0;
+    top: 0;
+    height: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.portfolio-image-conatiner:hover {
+    box-shadow: 0 0 20px #74adc8;
+}
+
+.portfolio-image-conatiner:hover .portfolio-details {
+    background-color: #80808078;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+.awards {
+    line-height: 50px;
+    margin-top: 50px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.9), rgba(36, 11, 54, 0.8), rgba(195, 20, 50, 0.9)), url("https://i.imgur.com/3vacZxN.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.contact-header {
+    font-family: "Montserrat", sans-serif;
+    margin: 10rem 10rem 3rem 10rem;
+    text-align: center;
+}
+
+#co-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #c31432;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#co-text {
+    font-size: 3rem;
+    color: white;
+    padding-bottom: 2rem;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    line-height: 2;
+    height: auto;
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 10rem;
+}
+
+.contact-form {
+    font-family: "Montserrat", sans-serif;
+    padding: 5rem;
+}
+
+#form-title {
+    color: #fff;
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    line-height: 1px;
+    margin-left: 4rem;
+    margin-bottom: 3rem;
+}
+
+fieldset {
+    border: none;
+}
+
+.form-field {
+    outline: none;
+    width: 200%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+    margin-bottom: .9rem;
+}
+
+#name,
+#email,
+#subject,
+#message {
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    outline: none;
+    background: transparent;
+    border: none;
+    letter-spacing: 2px;
+    font-size: .6rem;
+    line-height: 2rem;
+    padding-bottom: 0.7rem;
+}
+
+textarea,
+#message {
+    width: 100%;
+    color: #fff;
+    overflow: visible;
+}
+
+#form-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    border: none;
+    color: white;
+    font-size: 0.6rem;
+    letter-spacing: 2.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 200%;
+    height: 60px;
+    background-color: #c31432;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+#form-btn:hover {
+    opacity: 0.9;
+    transform: translateY(-2.5%);
+    box-shadow: 0 0 15px 0 #000;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.contact-info h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    color: #c31432;
+}
+
+.contact-info a {
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    color: #666;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    line-height: 3rem;
+    margin-bottom: 5rem;
+    transition: all .3s ease;
+}
+
+.contact-info a:hover {
+    transform: translateY(-2.5%);
+    color: #999;
+}
+
+.contact-info .fab {
+    font-size: 1.5rem;
+    line-height: 3rem;
+    padding-left: 2rem;
+    color: #666;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.fab:hover {
+    transform: scale(1.2);
+    color: #999;
+}
+
+@media screen and (max-width: 960px) {
+    .contact-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .form-field {
+        width: 100%;
+    }
+    #form-btn {
+        width: 100%;
+    }
+    #form-title {
+        margin: 3rem auto;
+    }
+    .contact-header {
+        margin: 5rem 5rem 3rem 5rem;
+    }
+    #co-title {
+        font-size: 1rem;
+    }
+    #co-text {
+        font-size: 2.5rem;
+    }
+    .contact-form {
+        padding: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .form-field {
+        width: 125%;
+    }
+    #form-title {
+        margin: 3rem auto;
+    }
+    #form-btn {
+        width: 125%;
+    }
+    .contact-header {
+        margin: 7rem 7rem 3rem 7rem;
+    }
+    .contact-info {
+        padding: 5rem;
+    }
+    #co-title {
+        font-size: 1rem;
+    }
+    #co-text {
+        font-size: 2.5rem;
+    }
+    .contact-form {
+        padding: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 1460px) {
+    .form-field {
+        width: 200%;
+    }
+    #form-btn {
+        width: 200%;
+    }
+}
